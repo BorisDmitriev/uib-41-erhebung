@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   height: 100vh;
+    background: no-repeat linear-gradient(to right bottom, #fc7a59, #f25b63, #e03d71, #c6247f, #a21b8d);
+ 
+}
+
+.card-main{
+    padding: 40px;
+    width: 50vw;
+    margin: 25vh auto;
+    background-color: rgba(255, 255, 255, 0.249);
+    color: rgb(249,209,207);
+
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, .12),
+                0px -6px 6px rgba(0, 0, 0, .12),
+                6px 6px 6px rgba(0, 0, 0,.12),
+                -6px -6px 6px rgba(0, 0, 0, .12);
+}
+
+.card-content{
+    width: 80%;
+}
+
+.card-content>h1{
+    padding-bottom: 22px;
+}
